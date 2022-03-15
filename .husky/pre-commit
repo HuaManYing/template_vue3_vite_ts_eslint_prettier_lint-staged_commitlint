@@ -1,5 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn husky add .husky/pre-commit 'yarn lint-staged --allow-empty "$1" && yarn lint'
-
+yarn lint-staged --allow-empty "$1" && yarn lint
