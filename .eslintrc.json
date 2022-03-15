@@ -27,6 +27,12 @@
     "semi": [
       "error",
       "always"
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true
+      }
     ]
     // "semi": 0
   }
