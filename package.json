@@ -31,15 +31,15 @@
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*{.ts,.js,.vue,.jsx,.tsx}": [
       "yarn lint-fix",
       "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
