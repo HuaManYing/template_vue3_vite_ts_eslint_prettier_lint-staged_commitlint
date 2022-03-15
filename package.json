@@ -17,6 +17,8 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "@typescript-eslint/parser": "^5.14.0",
     "@vitejs/plugin-vue": "^2.2.0",
     "eslint": "^8.11.0",
