@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
-  <div>11</div>
+  <!-- <div>11</div> -->
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 
