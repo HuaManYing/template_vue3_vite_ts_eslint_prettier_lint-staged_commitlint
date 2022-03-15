@@ -34,7 +34,6 @@
   "lint-staged": {
     "*{.ts,.js,.vue,.jsx,.tsx}": [
       "yarn lint-fix",
-      "yarn format",
       "git add"
     ]
   },
