@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
+import { version as vueVersion, name, description, main, files } from 'vue/package.json';
+console.log('vueVersion', vueVersion);
+console.log(name, description, main, files);
 </script>
 
 <template>
